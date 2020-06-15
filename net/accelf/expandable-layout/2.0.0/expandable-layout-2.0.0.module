@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.accelf",
+    "module": "expandable-layout",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "zr5edfhhbfg4fpqqa4rfsqsca4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "expandable-layout-2.0.0.aar",
+          "url": "expandable-layout-2.0.0.aar",
+          "size": 39704,
+          "sha512": "d17c87f66a44d517d0436a2ffb6025149951c55dcbe328c55d8086b2a27da96f96f2d2fc647dc8601e0ab00ef37838f23218418b2b3312e4929705a2364d8921",
+          "sha256": "922b3fce1a0f9812906622b3a9bcf102f9e1f6a8cd7d6eefaa66121f8536d8b9",
+          "sha1": "13178bd260c914cf5eef1301d485b62def47c79d",
+          "md5": "b43024d95a3405acced90d2f898c1374"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "expandable-layout-2.0.0.aar",
+          "url": "expandable-layout-2.0.0.aar",
+          "size": 39704,
+          "sha512": "d17c87f66a44d517d0436a2ffb6025149951c55dcbe328c55d8086b2a27da96f96f2d2fc647dc8601e0ab00ef37838f23218418b2b3312e4929705a2364d8921",
+          "sha256": "922b3fce1a0f9812906622b3a9bcf102f9e1f6a8cd7d6eefaa66121f8536d8b9",
+          "sha1": "13178bd260c914cf5eef1301d485b62def47c79d",
+          "md5": "b43024d95a3405acced90d2f898c1374"
+        }
+      ]
+    }
+  ]
+}
